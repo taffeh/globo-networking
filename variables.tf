@@ -14,7 +14,7 @@ variable "prefix" {
   default     = "globo-dev"
 }
 
-variable "environment"{
+variable "environment" {
   type        = string
   description = "(Optional) Environment of all resources"
   default     = "development"
